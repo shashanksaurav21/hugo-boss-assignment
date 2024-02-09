@@ -1,0 +1,101 @@
+.register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.register_main {
+  width: 60%;
+  height: 100px;
+  /* background-color: aqua; */
+  margin: 5rem 2rem;
+}
+.create_account {
+  padding: 10px 10px 15px 10px;
+  margin: 1.875rem -0.625rem 0 -0.625rem;
+  font-size: 32px;
+  font-weight: 800;
+}
+.regiter_form {
+  margin-top: 2rem;
+  font-size: 16px;
+}
+.ant-select-selector {
+  border: none !important;
+  background: transparent !important;
+  height: 10px;
+}
+.salutation_box {
+  max-width: 28vw;
+}
+.form_group-fn {
+  min-width: 28vw;
+}
+
+.ant-select-selection-placeholder,
+.ant-select-arrow {
+  color: black !important;
+}
+.ant-select-selector :focus {
+  border-color: none !important;
+}
+/* .form__input {
+  width: 320px;
+  height: 57px;
+  padding: 1rem;
+} */
+.flName {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.dob {
+  margin-bottom: 2rem;
+}
+.dob-decl {
+  font-size: 12px;
+  font-weight: 700;
+  color: #333333;
+}
+.dob_select {
+  display: flex;
+
+  justify-content: space-between;
+}
+.form__input-dob {
+  width: 207px;
+}
+.small {
+  font-size: 12px;
+  font-weight: 700;
+}
+.cb_d {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+}
+.tAndC {
+  border-top: 1px solid #cccccc;
+  font-size: 14px;
+  width: 90%;
+  padding: 2rem;
+  color: #3a3b3c;
+}
+.tc_links {
+  font-weight: 700;
+  text-decoration: underline;
+  color: black;
+}
+
+.ca_btn {
+  float: right;
+  width: 190px;
+}
+
+@media screen and (max-width: 720px) {
+  .flName {
+    flex-direction: column;
+  }
+  .salutation_box {
+    min-width: 100%;
+  }
+}
